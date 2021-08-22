@@ -1,0 +1,13 @@
+.buttonContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding:0 50rem 0 0rem;
+    margin-top: 1em;
+}
+#RESULT, #stack, #screen{
+    border: 1px solid black;
+    padding: 5px;
+}
+#number0{
+    grid-column-start:2 ;
+}
